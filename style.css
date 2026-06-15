@@ -9,10 +9,12 @@
   --font-normal: 500;
   --font-bold: 800;
   --radius: 1rem;
-  --shadow: 0.5rem 0.5rem  var(--clr-black);
+  --shadow: 0.5rem 0.5rem var(--clr-black);
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -53,6 +55,10 @@ body {
   padding: 0.25rem 0.5rem;
   align-self: flex-start;
   border-radius: 0.25rem;
+}
+
+.title {
+  font-size: 1.25rem;
 }
 
 .text {

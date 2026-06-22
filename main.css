@@ -1,0 +1,21 @@
+/* import primary font */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  /* colors */
+  --clr-yellow: hsl(0, 0%, 100%);
+  --clr-white: hsl(47, 88%, 63%);
+  --clr-gray-950: hsl(0, 0%, 7%);
+  --clr-gray-500: hsl(0, 0%, 42%);
+  /* fonts */
+  --font-family: "Figtree", Tahoma, Arial, sans-serif;
+  --text-preset-1: 800 1.5rem/1.5 var(var(--font-family));
+  --text-preset-2: 500 1rem/1.5 var(var(--font-family));
+  --text-preset-3: 500 0.875rem/1.5 var(var(--font-family));
+  --text-preset-3bold: 800 0.875rem/1.5 var(var(--font-family));
+  /* spacing units */
+  --spacing-300: 1.5rem;
+  --spacing-150: 0.75rem;
+  --spacing-100: 0.5rem;
+  --spacing-50: 0.25rem;
+}

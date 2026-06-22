@@ -3,43 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
     <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
     />
-    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Blog preview card</title>
   </head>
   <body>
-    <section id="main">
-      <div class="card">
-        <div class="img-container">
-          <img
-            src="./images/illustration-article.svg"
-            alt="main card image: displays coding as target of learning"
-            class="card-img"
-          />
+    <main>
+      <section class="card">
+        <img
+          src="./images/illustration-article.svg"
+          alt="main image dispays some vector graphics about coding"
+          class="card-img"
+        />
+        <div class="card-content">
+          <span class="label">Learning</span>
         </div>
-        <div class="content">
-          <h4 class="label">Learning</h4>
-          <p class="date">Published 21 Dec 2023</p>
-          <h1 class="title">HTML & CSS foundations</h1>
-          <p class="text">
-            These languages are the backbone of every website, defining
-            structure, content, and presentation.
-          </p>
-        </div>
-        <div class="footer">
+        <p class="date">Published 21 Dec 2023</p>
+        <h1 class="title">HTML & CSS foundations</h1>
+        <p class="text">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="card-footer">
           <img
             src="./images/image-avatar.webp"
-            alt="image represanting author of the post"
-            class="avatar-img"
+            alt="author photo, small size"
+            class="avatar"
           />
-          <h4 class="author">Greg Hooper</h4>
+          <h2 class="name">Greg Hooper</h2>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
   </body>
 </html>

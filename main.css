@@ -105,7 +105,7 @@ body {
 }
 
 .name {
-  font: var(--mobile-preset-3bold);
+  font: var(--text-preset-3bold);
 }
 
 @media screen and (width > 375px) {
